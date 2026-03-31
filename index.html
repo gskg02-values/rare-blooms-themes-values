@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Museum of Values | Home</title>
+    <style>
+        :root {
+            --bg-color: #fcfcf9;
+            --text-color: #1a1a1a;
+            --museum-red: #6C0000; /* Your requested header/title color */
+            --accent-gray: #777;
+            --serif-font: 'Georgia', serif;
+            --sans-font: 'Helvetica Neue', Arial, sans-serif;
+        }
+
+        body {
+            background-color: var(--bg-color);
+            color: var(--text-color);
+            margin: 0;
+            padding: 0;
+            font-family: var(--sans-font);
+            line-height: 1.8;
+        }
+
+        /* --- Header & Navigation --- */
+        header {
+            text-align: center;
+            padding: 100px 20px 60px;
+            border-bottom: 1px solid #eee;
+        }
+
+        h1 {
+            font-family: var(--serif-font);
+            font-weight: 700;
+            font-size: 3rem;
+            color: var(--museum-red);
+            letter-spacing: 4px;
+            text-transform: uppercase;
+            margin: 0;
+        }
+
+        .tagline {
+            font-size: 0.9rem;
+            letter-spacing: 3px;
+            text-transform: uppercase;
+            color: var(--accent-gray);
+            margin-top: 10px;
+        }
+
+        /* --- Why This Space (Philosophy) --- */
+        .philosophy-section {
+            max-width: 700px;
+            margin: 80px auto;
+            text-align: center;
+            padding: 0 20px;
+        }
+
+        .philosophy-section h2 {
+            font-family: var(--serif-font);
+            color: var(--museum-red);
+            font-size: 1.5rem;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            margin-bottom: 20px;
+        }
+
+        .philosophy-text {
+            font-style: italic;
+            font-size: 1.1rem;
+            color: #444;
+        }
+
+        /* --- The 12 Poster Grid --- */
+        .gallery-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 50px;
+            max-width: 1200px;
+            margin: 100px auto;
+            padding: 0 40px;
+        }
+
+        .exhibit-card {
+            text-decoration: none;
+            color: inherit;
+            transition: all 0.4s ease;
+        }
+
+        .image-frame {
+            background: #fff;
+            padding: 15px;
+            box-shadow: 0 15px 35px rgba(0,0,0,0.06);
+            border: 1px solid #f0f0f0;
+            margin-bottom: 20px;
+        }
+
+        .image-frame img {
+            width: 100%;
+            display: block;
+            transition: opacity 0.3s;
+        }
+
+        .exhibit-card:hover .image-frame {
+            transform: translateY(-10px);
+            box-shadow: 0 25px 50px rgba(108, 0, 0, 0.1); /* Subtle red shadow on hover */
+        }
+
+        .exhibit-card h3 {
+            font-family: var(--serif-font);
+            color: var(--museum-red);
+            font-size: 1.2rem;
+            margin: 10px 0 5px;
+            text-align: center;
+        }
+
+        .exhibit-meta {
+            display: block;
+            text-align: center;
+            font-size: 0.7rem;
+            letter-spacing: 2px;
+            text-transform: uppercase;
+            color: var(--accent-gray);
+        }
+
+        /* --- Curator Section --- */
+        .curator-section {
+            background: #f4f4f2;
+            padding: 80px 20px;
+            margin-top: 100px;
+            text-align: center;
+        }
+
+        .curator-content {
+            max-width: 600px;
+            margin: 0 auto;
+        }
+
+        .curator-section h2 {
+            font-family: var(--serif-font);
+            color: var(--museum-red);
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            font-size: 1.3rem;
+        }
+
+        /* --- Footer --- */
+        footer {
+            padding: 60px;
+            text-align: center;
+            font-size: 0.75rem;
+            letter-spacing: 1px;
+            color: #bbb;
+            text-transform: uppercase;
+        }
+
+        hr {
+            width: 50px;
+            border: 0;
+            border-top: 1px solid var(--museum-red);
+            margin: 30px auto;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Harvesting Nature's Bounty</h1>
+        <div class="tagline">An Exploration of Nature, Spirit & Resilience</div>
+    </header>
+
+    <section class="vision-section" style="max-width: 800px; margin: 100px auto; padding: 0 20px; text-align: left;">
+    <h2 style="font-family: 'Georgia', serif; color: #6C0000; text-transform: uppercase; letter-spacing: 3px; font-size: 1.6rem; border-bottom: 1px solid #eee; padding-bottom: 15px; margin-bottom: 30px;">
+        The Vision: Not Seen, But Deeply Seen
+    </h2>
+    
+    <div style="font-family: 'Helvetica Neue', Arial, sans-serif; line-height: 1.9; color: #333; font-size: 1.05rem;">
+        <p>
+            This collection was born from an extensive exploration of rare blooms found throughout the digital world. 
+            While most observations of these plants praise them for their aesthetic beauty or the unique timing of their blooms, 
+            the intention here is to go one step ahead.
+        </p>
+        
+        <p>
+            By looking deeper, we can begin to understand the foundational, foolproof systems and principles governing their survival. 
+            In an era where the modern world struggles to cope with the pace of existence, nature quietly exhibits the essential systems required for growth.
+        </p>
+
+        <blockquote style="margin: 40px 0; padding-left: 30px; border-left: 3px solid #6C0000; font-family: 'Georgia', serif; font-style: italic; font-size: 1.3rem; color: #1a1a1a;">
+            "Flowers do not speak; they exhibit." 
+        </blockquote>
+
+        <p>
+            The posters and articles in this gallery represent a <strong>fusion of botanical science and Stoic philosophy</strong>. 
+            They are the outcome of a deep study intended to extract the underlying wisdom inherited within these rare life forms. 
+            Stunned by growth patterns that range from a single year to an entire century, we move beyond simple observation.
+        </p>
+
+        <p style="margin-top: 30px; font-weight: bold; color: #6C0000; letter-spacing: 1px; text-transform: uppercase; font-size: 0.9rem;">
+            The Key: To see, but deeply see, to understand the hidden principles that responsibly govern us.
+        </p>
+    </div>
+</section>
+
+    <main class="gallery-grid">
+        
+	<a href="article1.html" class="exhibit-card">
+            <div class="image-frame"><img src="poster1.jpg" alt="Poster 1"></div>
+            <span class="exhibit-meta">Exhibit 01</span>
+            <h3>THE BRAHMA KAMAL</h3>
+        </a>
+
+        <a href="article2.html" class="exhibit-card">
+            <div class="image-frame"><img src="poster2.jpg" alt="Poster 2"></div>
+            <span class="exhibit-meta">Exhibit 02</span>
+            <h3>THE SIKKIM SUNDARI</h3>
+        </a>
+
+        <a href="article3.html" class="exhibit-card">
+            <div class="image-frame"><img src="poster3.jpg" alt="Poster 3"></div>
+            <span class="exhibit-meta">Exhibit 03</span>
+            <h3>THE NEELAJURINJI</h3>
+        </a>
+
+       
+<a href="article4.html" class="exhibit-card">
+            <div class="image-frame"><img src="poster4.jpg" alt="Poster 3"></div>
+            <span class="exhibit-meta">Exhibit 04</span>
+            <h3>THE TALIPOT PALM</h3>
+        </a>
+
+<a href="article5.html" class="exhibit-card">
+            <div class="image-frame"><img src="poster5.jpg" alt="Poster 3"></div>
+            <span class="exhibit-meta">Exhibit 05</span>
+            <h3>THE MELACONNA BACCIFERA</h3>
+        </a>
+
+<a href="article6.html" class="exhibit-card">
+            <div class="image-frame"><img src="poster6.jpg" alt="Poster 3"></div>
+            <span class="exhibit-meta">Exhibit 06</span>
+            <h3>THE QUEEN OF THE NIGHT</h3>
+        </a>
+
+<a href="article7.html" class="exhibit-card">
+            <div class="image-frame"><img src="poster7.jpg" alt="Poster 3"></div>
+            <span class="exhibit-meta">Exhibit 07</span>
+            <h3>THE MIDDLEMIST RED</h3>
+        </a>
+
+<a href="article8.html" class="exhibit-card">
+            <div class="image-frame"><img src="poster8.jpg" alt="Poster 3"></div>
+            <span class="exhibit-meta">Exhibit 08</span>
+            <h3>THE GHOST ORCHID</h3>
+        </a>
+
+<a href="article9.html" class="exhibit-card">
+            <div class="image-frame"><img src="poster9.jpg" alt="Poster 3"></div>
+            <span class="exhibit-meta">Exhibit 09</span>
+            <h3>THE PUYA RAIMOONDI</h3>
+        </a>
+
+<a href="article10.html" class="exhibit-card">
+            <div class="image-frame"><img src="poster10.jpg" alt="Poster 3"></div>
+            <span class="exhibit-meta">Exhibit 10</span>
+            <h3>THE BLUE PUYA</h3>
+        </a>
+
+<a href="article11.html" class="exhibit-card">
+            <div class="image-frame"><img src="poster11.jpg" alt="Poster 3"></div>
+            <span class="exhibit-meta">Exhibit 11</span>
+            <h3>THE AGAVE AMERICANA</h3>
+        </a>
+
+<a href="article12.html" class="exhibit-card">
+            <div class="image-frame"><img src="poster12.jpg" alt="Poster 3"></div>
+            <span class="exhibit-meta">Exhibit 12</span>
+            <h3>THE CORPSE FLOWER</h3>
+        </a>
+
+
+
+
+ </main>
+
+    <section class="curator-section">
+        <div class="curator-content">
+            <h2>About the Curator</h2>
+            <p>
+                Driven by a deep reverence for the natural world and the power of minimalist design, the curator seeks to distill complex life philosophies into visual and written meditations. This museum is a labor of intention—a quiet corner of the internet built for those who seek strength in stillness.
+            </p>
+        </div>
+    </section>
+
+    <footer>
+        &copy; 2026 The Museum of Values. All Rights Reserved.
+    </footer>
+
+</body>
+</html>
