@@ -47,3 +47,12 @@ Do not rush. This space is optimized for "Deep Seeing." Choose an exhibit, study
 
 ---
 *© 2026 The Museum of Values | Curated with Intention.*
+
+
+Interested to Share your thoughts/suggestions, please...?
+
+✉️ Feedback and reflections are welcome as we continue to fine-tune.
+
+Curator: [Siva/gskg02@gmail.com]
+
+**"A RECYCLABLE, REUSABLE, REDUCABLE and a SUSTAINABLE digital writing with humane thinking."**
