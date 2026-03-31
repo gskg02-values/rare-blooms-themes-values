@@ -2,7 +2,7 @@
 
 ---
 
-# 🏛️ THE MUSEUM OF VALUES
+# 🏛️ THE SPACE OF VALUES
 ### *The Architecture of the Unseen*
 
 > **"Flowers do not speak; they exhibit."**
